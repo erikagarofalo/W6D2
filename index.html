@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eveline-R</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .w-ds-logo {
+        width: 5%;
+      }
+
+      .fs-ds-search {
+        font-size: 0.9em !important;
+      }
+
+      @media screen and (min-width: 768px) {
+        .saldi p {
+          font-size: 0.9em !important;
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+        .hero h1:not(:first-of-type) {
+          font-size: 4em;
+          text-align: center !important;
+          justify-content: center;
+        }
+
+        header img {
+          width: 20% !important;
+        }
+
+        .hero p {
+          font-size: 1.3em !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+        <div class="container">
+          <img src="assets/img/logo.png" class="w-ds-logo me-3" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Welcome Summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-5 h-25" type="search" placeholder="Cerca Posti da sogno" aria-label="Search" />
+              <button class="btn btn-outline-danger fs-ds-search" type="button">Cerca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-------------------------------------------------------------------------->
+    <main>
+      <div class="hero container d-flex flex-column align-items-center align-items-lg-start bg-body-tertiary">
+        <h1 class="fw-light text-secondary border border-top-0 border-start-0 border-end-0 border-secondary d-flex align-items-center pb-3">
+          Eveline-R-<span class="fs-6">Feel the Freedom</span>
+        </h1>
+        <p class="text-secondary fs-6">Scopri le destinazioni più calde del momento!</p>
+        <button type="button" class="btn btn-info mt-3 text-light fw-semibold w-20 px-4">Prenota ora</button>
+      </div>
+
+      <div class="container saldi">
+        <div class="row mt-5 gx-3 gy-3">
+          <div class="col-12 fs-4 fw-semibold mb-0 d-flex justify-content-between">
+            <p class="fs-5">Saldi</p>
+            <a class="btn text-info fs-5" data-bs-toggle="collapse" href="#sez1" role="button" aria-expanded="false" aria-controls="collapseExample"
+              >Nascondi sezione</a
+            >
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6" id="sez1">
+            <div class="card border border-info border-2 rounded p-0 h-100">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6" id="sez1">
+            <div class="card border border-info border-2 rounded p-0 h-100">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6" id="sez1">
+            <div class="card border border-info border-2 rounded p-0 h-100">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6 d-md-none d-lg-block" id="sez1">
+            <div class="card border border-info border-2 rounded p-0 h-100">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container summer mt-5 mb-5">
+        <div class="row gx-3 gy-3">
+          <div class="col-12 fs-5 fw-semibold mb-0 d-flex justify-content-between">
+            <p class="fs-5">Welcome Summer</p>
+            <a class="btn text-info fs-5" data-bs-toggle="collapse" href="#sez2" role="button" aria-expanded="false" aria-controls="collapseExample"
+              >Nascondi sezione</a
+            >
+          </div>
+          <div class="col-lg-4 col-md-6 col-6" id="sez2">
+            <div class="card rounded p-0 h-100" style="box-shadow: 10px 10px 13px 10px #e3e3e3">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+              <span class="position-absolute top-0 start-100 translate-middle-x badge rounded-pill bg-danger">HOT</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6" id="sez2">
+            <div class="card rounded p-0 h-100" style="box-shadow: 10px 10px 13px 10px #e3e3e3">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+              <span class="position-absolute top-0 start-100 translate-middle-x badge rounded-pill bg-danger">HOT</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6" id="sez2">
+            <div class="card rounded p-0 h-100" style="box-shadow: 10px 10px 13px 10px #e3e3e3">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+              <span class="position-absolute top-0 start-100 translate-middle-x badge rounded-pill bg-danger">HOT</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6" id="sez2">
+            <div class="card rounded p-0 h-100" style="box-shadow: 10px 10px 13px 10px #e3e3e3">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+              <span class="position-absolute top-0 start-100 translate-middle-x badge rounded-pill bg-danger">HOT</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-6" id="sez2">
+            <div class="card rounded p-0 h-100" style="box-shadow: 10px 10px 13px 10px #e3e3e3">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+              <span class="position-absolute top-0 start-100 translate-middle-x badge rounded-pill bg-danger">HOT</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6" id="sez2">
+            <div class="card rounded p-0 h-100" style="box-shadow: 10px 10px 13px 10px #e3e3e3">
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100" />
+              <h6 class="mt-2 ms-2 fw-bold">Titolo</h6>
+              <p class="p-2 pt-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde! Autem quae rem natus voluptatibus? Et, ea odio! Ipsum nemo dolore
+                vitae quaerat laborum consequuntur totam, eos necessitatibus nobis? Mollitia?
+              </p>
+              <button type="button" class="btn btn-info text-dark w-50 p-0 ms-2 mb-3">Prenota ora</button>
+              <span class="position-absolute top-0 start-100 translate-middle-x badge rounded-pill bg-danger">HOT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container offerta mb-5 d-none d-sm-flex">
+        <div class="row mt-5 gx-5 gy-3">
+          <div class="col-12 fs-5 fw-semibold mb-0">
+            <p class="fs-5">Offerta del giorno</p>
+          </div>
+          <div class="col-6 col-lg-8">
+            <div>
+              <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <h2 class="fw-normal">Fushifaru <span class="d-block">Maldives</span></h2>
+            <p class="fs-6 fw-lighter">15.01.2021-31.01.2021</p>
+            <p class="fw-light fs-6">Ville a partire da 500 €,<span class="d-block">non fartele sfuggire!</span></p>
+            <div class="bg-dark text-light w-25 rounded-5 p-0 text-center">
+              <p>Best offer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container last-minute mb-5">
+        <div class="row mt-5 gx-2 gy-3">
+          <div class="col-12 fs-5 fw-semibold mb-0">Last Minute</div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/booking.jpg" alt="booking" class="w-100 rounded" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside class="container mb-5">
+      <h2 class="text-center fs-4">Dicono di noi</h2>
+      <section class="row gy-3">
+        <div class="col-md-1 col-2">
+          <div class="w-100">
+            <img src="assets/img/user-icon.png" alt="us-ico" class="w-100" />
+          </div>
+        </div>
+        <div class="col-10 col-md-11 mb-3">
+          <h6>Username</h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad id quo aspernatur a nulla natus voluptates dolorum recusandae vel ipsam temporibus
+            fugit unde, asperiores architecto ex enim quisquam assumenda cumque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti voluptates
+            tempore illo ad. Dolores maxime, magnam optio atque laborum deserunt blanditiis inventore incidunt pariatur debitis quo beatae nostrum quia tenetur.
+          </p>
+        </div>
+
+        <div class="col-md-1 col-2">
+          <div class="w-100">
+            <img src="assets/img/user-icon.png" alt="us-ico" class="w-100" />
+          </div>
+        </div>
+        <div class="col-10 col-md-11 mb-3">
+          <h6>Username</h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad id quo aspernatur a nulla natus voluptates dolorum recusandae vel ipsam temporibus
+            fugit unde, asperiores architecto ex enim quisquam assumenda cumque?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolorum rerum
+            natus nemo accusamus qui temporibus hic suscipit ipsam? Cum nesciunt quidem aspernatur dolore labore neque nihil natus eum dolorem.
+          </p>
+        </div>
+        <div class="col-md-1 col-2">
+          <div class="w-100">
+            <img src="assets/img/user-icon.png" alt="us-ico" class="w-100" />
+          </div>
+        </div>
+        <div class="col-10 col-md-11 mb-3">
+          <h6>Username</h6>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad id quo aspernatur a nulla natus voluptates dolorum recusandae vel ipsam temporibus
+            fugit unde, asperiores architecto ex enim quisquam assumenda cumque?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio repellendus
+            atque laudantium distinctio excepturi adipisci delectus. Deleniti, aut perspiciatis recusandae iure saepe consequuntur delectus illo, placeat
+            distinctio suscipit doloribus voluptas.
+          </p>
+        </div>
+      </section>
+    </aside>
+
+    <footer class="bg-dark container-fluid h-25 d-flex justify-content-center align-items-center flex-column p-5">
+      <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contattaci</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Messaggio</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="email" class="form-control" id="recipient-name" />
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Messaggio:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+              <button type="button" class="btn btn-primary">Invia messaggio</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-light fs-6 mt-3">©<span>2021</span> Kalina Travel LTD. All Rights Reserved.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
